@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Sense8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no"/>
+    <link rel="stylesheet" href="../css/movies.css">
+    <h1>Sense8</h1>
+</head>
+<body>
+
+<div id="wrapper">
+    <header>
+        <img src="../images/logo.png" alt="logo"/>
+
+    </header>
+
+    <div id="nav">
+        <ul>
+            <li><a href="../watchlist.html">Back to list</a></li>
+            <li class="active">Sense8</li>
+        </ul>
+    </div>
+    <div id="content">
+        <p>/* Put description here.*/ </p>
+
+        <div id="left_container">
+
+            <img src="../images/sense8.jpg" alt="cover image"/>
+        </div>
+        <div id="right_container">
+            <h2>Trailer</h2>
+                <div class="embed-video-small">
+                    <div class="videoWrapper">
+                        <iframe width="96" height="64" src="https://www.youtube.com/embed/iKpKAlbJ7BQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            <a href="http://www.imdb.com/">See Page on Imdb</a>
+        </div>
+        <form  action="Sense8.html"  method="post" id="opinions" class="localstorage">
+            <fieldset>
+                <legend>Information </legend>
+            <ul>
+                <li>Date started <input type="date" id="start-date" class="localstorage"></li>
+                <li>Date finished <input type="date" id="end-date" class="localstorage"></li>
+
+
+                <li>Rewatch?
+                    <ul>
+                        <li><input type="radio" name="rewatch" value="yes" id="rewatch-yes" class="localstorage">Yes</li>
+                        <li><input type="radio" name="rewatch" value="no" id="rewatch-no" class="localstorage">No</li>
+                    </ul>
+                </li>
+                </ul>
+            </fieldset>
+                <fieldset>
+               <legend>Experience </legend>
+
+                <ul>
+                    <li>Rating <input type="range" id="rating" class="localstorage"></li>
+                <li>Eating
+                <select name="food" id="food" size="5" multiple>
+                    <option value="ice-cream">Ice Cream</option>
+                    <option value="popcorn">Popcorn</option>
+                    <option vaule="potato-chips">Potato chips</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="candy">Candy</option>
+                    <option value="other">Other</option>
+                </select>
+
+                </li>
+                <li>Drinking
+                <select name="drink" class="localstorage">
+                    <optgroup label="soda">
+                        <option value="coke">Coke</option>
+                        <option value="fanta">Fanta</option>
+                        <option value="sugar-free">Sugar Free Shit</option>
+                        <option value="other">Other</option>
+                    </optgroup>
+                    <optgroup label="alchohol">
+                        <option value="vodka">Vodka</option>
+                        <option value="cider">Cider</option>
+                        <option value="beer">Beer</option>
+                        <option value="wine">Wine</option>
+                        <option value="liquor">Liquor</option>
+                        <option value="mixed">Mixed</option>
+                    </optgroup>
+                    <optgroup label="poor">
+                        <option value="water">Water</option>
+                        <option value="sparkle">Sparkling Water</option>
+                        <option value="nothing">Nothing</option>
+                        <option value="other">Other</option>
+                    </optgroup>
+                </select>
+                </li>
+                <li>Mood
+                <select name="mood" size="5" multiple class="localstorage">
+                    <option value="sad">Sad</option>
+                    <option value="happy">Happy</option>
+                    <option value="melancholic">Melancholic</option>
+                    <option value="anticipating">Anticipating</option>
+                    <option value="angry">Angry</option>
+                    <option value="bored">Bored</option>
+                    <option value="listless">Listless</option>
+                    <option value="disappointed">Disappointed</option>
+                    <option value="irritated">Irritated</option>
+                    <option  value="apathetic">Apathetic</option>
+                    <option  value="other">Other</option>
+                </select>
+                </li>
+                <li>Favorite Character <br><input type="text" id="favorite-character" placeholder="Who was your favorite character?" class="localstorage"></li>
+                <li>Most Annoying Character <br><input type="text" id="least-favorite-character" placeholder="Who was your least favorite character?" class="localstorage"></li>
+                <li>Favorite Scene <textarea rows="5" cols="20" placeholder="Enter description here." id="description" class="localstorage"></textarea></li>
+            </ul>
+                    <input type="submit" value="Submit Opinions" id="submit-button-id" >
+                </fieldset>
+
+        </form>
+
+    </div>
+    <footer>
+        <div class="buttonWrapper">
+        <img src="../images/volumebutton_left.png" alt="left volume button" id="left_button"/>
+        <img src="../images/volumebutton_right.png" alt="right volume button" id="right_button"/>
+        </div>
+    </footer>
+</div>
+
+<script type="text/javascript" src="../js/jaaulde-cookies.js"></script>
+<script type="text/javascript" src="../js/storage.js">
+
+</script>
+</body>
+
+</html>

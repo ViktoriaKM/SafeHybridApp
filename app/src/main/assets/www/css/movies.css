@@ -1,0 +1,167 @@
+movies.css
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+
+html, body, head, {
+
+     color: #86231e;
+     font: 1em "PT Sans", sans-serif;
+
+}
+
+
+
+h1 {
+     color: #86231e;
+     font: 1em "PT Sans", sans-serif;
+     text-align: center;
+
+     font-size: 2em;
+
+     padding: 10px;
+
+     margin: 0  auto;
+     background-color: #cbc7b1;
+     border: 2px solid #716b47;
+     border-radius: 0.5em;
+
+}
+
+/*Creates fluid images.*/
+img {
+  max-width: 100%;
+}
+
+
+h2 {
+
+}
+#nav {
+    background-image: url("../images/filmstrip.png");
+    background-repeat: repeat-x;
+}
+
+#content {
+    background-image: url("../images/base.png");
+}
+
+p, #left_container, #right_container, form, button {
+    background-color: #978e63;
+    color: #555033;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+
+header, footer {
+    background-image: url("../images/filmstrip.png");
+    background-repeat: repeat-x;
+}
+
+fieldset legend {
+    color: #86231e;
+    font: bold 2em "PT Sans", sans-serif;
+}
+
+ul {
+    list-style-image: url("../images/checkedbutton.png")
+}
+
+#nav ul{
+
+    color: #555033;
+    padding: 1em;
+    margin: 1em;
+    border: 2px solid #716b47;
+    border-radius: 0.5em;
+}
+#nav ul li {
+    display: inline;
+    margin: 1em;
+    padding: 0.5em;
+    border: 2px solid #716b47;
+    border-radius: 0.5em;
+}
+
+
+#nav ul li.active {
+    background-color: #cbc7b1;
+    color: #716b47;
+    border-radius: 0.5em;
+}
+
+a {
+   color: #86231e;
+   text-decoration: none;
+}
+
+#wrapper {
+    background: url(../images/base.png) no-repeat center center fixed;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+
+#left_container {
+    width: 35%;
+    padding: 1.25%;
+    float: left;
+}
+
+#right_container {
+  width: 35%;
+  padding: 1.25%;
+  float: right;
+}
+
+
+
+#right_button {
+    width: 35%;
+    float: right;
+
+}
+#left_button {
+    width: 35%;
+    float: left;
+
+}
+
+.buttonWrapper {
+
+     z-index: -1;
+     margin: 1em;
+     padding: 1em;
+}
+
+/*Media Queries*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header img {
+        width: 50px;
+        float: right;
+
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    header img {
+        width: 25px;
+        float: right;
+
+    }
+}
+
+/*For more; https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints */

@@ -1,0 +1,242 @@
+styles.css
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+
+body {
+
+    color: #86231e;
+
+}
+
+head {
+    color: #86231e;
+}
+
+
+
+h1 {
+
+     color: #86231e;
+
+     text-align: center;
+
+     font-family: "PT Sans", sans-serif;
+
+     font-size: 50px;
+
+     padding: 10px;
+
+     margin: 0  auto;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #86231e;
+}
+a:visited {
+    color: #c3918f;
+}
+
+
+
+
+.btn {
+
+     color: #2F3584;
+
+     width: 50%;
+
+     background-color: #cbc7b1;
+
+     border: 1px solid #c3918f;
+
+     border-radius: 10px;
+
+     margin: 0 auto;
+
+     height: 50px;
+
+     display: block;
+
+}
+
+/*Creates fluid images.*/
+img {
+  max-width: 100%;
+}
+
+
+
+#watchlist input.entry{
+
+
+
+     background-color: #cbc7b1;
+
+     padding: 1em;
+
+     margin: 1em;
+
+     border: 1px solid #86231e;
+
+     border-radius: 0.5em;
+
+}
+
+
+#watchlist {
+    color: #86231e;
+    background: url(../images/base.png) no-repeat center center fixed;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+
+
+}
+
+#watchlist form fieldset{
+    width: 80%;
+    height: 80%;
+}
+
+#watchlist form legend {
+    background-color: #978e63;
+    padding: 0 2px;
+    font-weight: bold;
+}
+
+#watchlist form label {
+
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+
+}
+
+#watchlist form fieldsest ol {
+    margin: 0;
+    padding: 0;
+}
+
+#watchlist form fieldsest li {
+    background-color: #978e63;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    overflow: hidden;
+}
+
+ol li#one {
+    list-style-image: url(../images/onebox.png);
+}
+
+ol li#two {
+    list-style-image: url(../images/twobox.png);
+}
+
+ol li#three {
+    list-style-image: url(../images/threebox.png);
+}
+
+ol li#four {
+    list-style-image: url(../images/fourbox.png);
+}
+
+ol li#five {
+    list-style-image: url(../images/fivebox.png);
+}
+
+ol li#six {
+    list-style-image: url(../images/sixbox.png);
+}
+
+ol li#seven {
+    list-style-image: url(../images/sevenbox.png);
+}
+
+ol li#eight {
+    list-style-image: url(../images/eightbox.png);
+}
+
+ol li#nine {
+    list-style-image: url(../images/ninebox.png);
+}
+
+ol li#ten {
+    list-style-image: url(../images/tenbox.png);
+}
+
+ol li#eleven {
+    list-style-image: url(../images/elevenbox.png);
+}
+
+/*
+#watchlist section label{
+
+     background-color: #cbc7b1;
+
+     margin-left: auto;
+
+     margin-right: auto;
+
+     padding: 1em;
+
+     width: 100%;
+
+     text-align: center;
+
+     vertical-align: middle;
+
+} /*
+
+
+
+
+
+
+
+
+/*
+Attempt to style the checkboxes with CSS, but best practice would be  to leave them alone or use javascript.
+
+.custom_checkbox {
+    display: none;
+}
+.custom_checkbox + label span {
+   display: inline-block;
+   width: 19px;
+   height: 19px;
+   margin: -1px 4px 0 0;
+   vertical-align: middle;
+   background-image: url(../check_radio_sheet.png) left top no-repeat;
+   cursor: pointer;
+}
+.custom_checkbox:checked + label span {
+    background-image: url(../check_radio_sheet.png) -19px top no-repeat;
+}
+
+*/
+
+/*Media Queries*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/*For more; https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints */
